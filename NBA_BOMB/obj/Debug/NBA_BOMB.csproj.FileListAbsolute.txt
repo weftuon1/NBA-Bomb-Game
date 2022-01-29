@@ -1,0 +1,13 @@
+C:\Users\user\Desktop\NBA_BOMB\NBA_BOMB\NBA_BOMB\bin\Debug\NBA_BOMB.exe.config
+C:\Users\user\Desktop\NBA_BOMB\NBA_BOMB\NBA_BOMB\bin\Debug\NBA_BOMB.exe
+C:\Users\user\Desktop\NBA_BOMB\NBA_BOMB\NBA_BOMB\bin\Debug\NBA_BOMB.pdb
+C:\Users\user\Desktop\NBA_BOMB\NBA_BOMB\NBA_BOMB\obj\Debug\NBA_BOMB.csprojResolveAssemblyReference.cache
+C:\Users\user\Desktop\NBA_BOMB\NBA_BOMB\NBA_BOMB\obj\Debug\NBA_BOMB.Form1.resources
+C:\Users\user\Desktop\NBA_BOMB\NBA_BOMB\NBA_BOMB\obj\Debug\NBA_BOMB.InputBox.resources
+C:\Users\user\Desktop\NBA_BOMB\NBA_BOMB\NBA_BOMB\obj\Debug\NBA_BOMB.Properties.Resources.resources
+C:\Users\user\Desktop\NBA_BOMB\NBA_BOMB\NBA_BOMB\obj\Debug\NBA_BOMB.csproj.GenerateResource.Cache
+C:\Users\user\Desktop\NBA_BOMB\NBA_BOMB\NBA_BOMB\obj\Debug\NBA_BOMB.exe
+C:\Users\user\Desktop\NBA_BOMB\NBA_BOMB\NBA_BOMB\obj\Debug\NBA_BOMB.pdb
+D:\Data\交大作業\大一_第二學期\物件導向程式設計\期末專題\Projects\NBA_BOMB\NBA_BOMB\bin\Debug\NBA_BOMB.exe.config
+D:\Data\交大作業\大一_第二學期\物件導向程式設計\期末專題\Projects\NBA_BOMB\NBA_BOMB\obj\Debug\NBA_BOMB.exe
+D:\Data\交大作業\大一_第二學期\物件導向程式設計\期末專題\Projects\NBA_BOMB\NBA_BOMB\obj\Debug\NBA_BOMB.pdb
