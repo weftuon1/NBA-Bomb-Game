@@ -1,0 +1,406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F02701E5-A663-4467-BFFF-0ECECD3636D8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NBA_BOMB</RootNamespace>
+    <AssemblyName>NBA_BOMB</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Character_function.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game_function.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inputbox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inputbox.Designer.cs">
+      <DependentUpon>Inputbox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ready_function.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inputbox.resx">
+      <DependentUpon>Inputbox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\apple.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb07.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb09.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\bomb15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\brownground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\can.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\flower01.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\flower02.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\grass.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\grayground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\house.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\iceground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\icewall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\irondoor.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\leaf01.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\leaf02.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\leaf03.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\leaf04.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\leaf05.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\leaf06.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\leaf07.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\leaf08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\pink.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\rain.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\redground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\tree.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\tree1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\tree2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\tree4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\trees.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\wall.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\water.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\woodhole.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\onfire.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\LeBron_James.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\LeBron James.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\love.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\push.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\war1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\war2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\war3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\war4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\war5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\war6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Yao.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\McGee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Curry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_60\Curry_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_60\Duncan_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_60\Iverson_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_60\Jeremy_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_60\Kobe_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_60\LeBron_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_60\McGee_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_60\Michael_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_60\Wade_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_60\Yao_60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_275\Curry_275x275.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_275\Duncan_300x250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_275\Iverson_300x250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_275\Jeremy_275x275.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_275\Kobe_300x250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_275\LeBron_250x300.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_275\McGee_300x250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_275\Michael_300x250.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_275\Wade_275x275.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_275\Yao_275x275.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_40\Curry_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_40\Duncan_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_40\Iverson_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_40\Jeremy_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_40\Kobe_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_40\LeBron_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_40\McGee_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_40\Michael_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_40\Wade_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\character_40\Yao_40.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Character_1000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\distance.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\howtoplayp1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\howtoplayp2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Ready_1000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Main.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Main_1000.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resourses\Rank_1000.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
